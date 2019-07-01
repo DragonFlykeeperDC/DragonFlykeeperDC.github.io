@@ -8,10 +8,10 @@
   <meta name="description" content>
   <meta name="author" content="DuWei">
   <!-- Open Graph Data -->
-  <meta property="og:title" content="ERC20">
+  <meta property="og:title" content="杜伟的Blog">
   <meta property="og:description" content="Hello">
   <meta property="og:site_name" content="杜伟的Blog">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta property="og:image" content="http://blogdw.com">
   
     <link rel="alternate" href="/atom.xml" title="杜伟的Blog" type="application/atom+xml">
@@ -35,7 +35,8 @@
 </head>
 
   <body>
-    <!-- Page Header -->
+    <!-- Archive Header -->
+<!-- Page Header -->
 
 
 <header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
@@ -43,7 +44,7 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <div class="page-title with-background-image">
-          <p class="title">ERC20</p>
+          <p class="title">Blog Archives</p>
           <p class="subtitle"></p>
         </div>
         <div class="site-menu with-background-image">
@@ -88,41 +89,34 @@
   </div>
 </header>
 
-<article>
-  <div class="container typo">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-info text-muted">
-          
-            <!-- Author -->
-            <span class="author info">By DuWei</span>
-          
-          <!-- Date -->
-          <span class="date-time info">On
-            <span class="date">2019-06-28</span>
-            <span class="time">10:23:50</span>
-          </span>
-          
-        </div>
-        <!-- Tags -->
-        
-          <div class="post-tags text-muted">
-            Tags: 
+<!-- Archive List -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      
+        <div class="archive-item">
+  <a href="/2019/07/01/est7-1-1/" class="post-title">
+    test7.1
+  </a>
+  <div class="date text-muted">Posted on 2019-07-01 10:19:09</div>
+</div>
 
-<a class="tag" href="/tags/区块链相关/">#区块链相关</a> <a class="tag" href="/tags/发币标准/">#发币标准</a>
+      
 
-
-          </div>
-        
-        <!-- Post Main Content -->
-        <div class="post-content">
-          <p>ERC20的全名叫：Ethereum Request for Comments 20。最先是以太坊社区团体提出来的。大家可以把它看做是一份协议，当你想创建自己的代币时，你就必须要遵守这份协议，这样后期才会有更多的第三方应用对你发行的代币进行支持。<br>ERC20是一段代码，主要有6个功能，分别是名称，简写，以及可以支持的最大位数以及定义查询方法等等。从ERC20发币的开源代码可以看出，如果一旦你要发币，首先就是要确定名称，代币简称，总量，代币精确小数点后多少位等等。<br>ERC 20有两种转账方式，一种是收件方为一份合同，这种情况下用户必须使用approve+transferFrom的功能来进行代币转移；而另一种则是收件方为合同外账户（例如，钱包地址）的情况，用户需将代币通过transfer功能转出。<br>根据ERC20标准，代币传输应该被认为是一个事件，但是传递函数不允许对这笔交易进行处理，因为它是在没有任何预先检查的情况下增加了接收方的余额。如果接收方是一个智能合约并且使用传递函数来发送代币的话，那么合约无法识别交易时肯能会导致问题的出现。这将导致传递函数出现意外行为并产生不可预测的结果，即代币可能会丢失并永久冻结。</p>
-
-        </div>
-      </div>
     </div>
   </div>
-</article>
+</div>
+<!-- Pagination -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 col-md-offset-1">
+      <ul class="pagination">
+          
+          
+      </ul>
+    </div>
+  </div>
+</div>
 
 
 
