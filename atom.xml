@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>杜伟的Blog</title>
+  
+  <subtitle>Hello World</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blogdw.com/"/>
+  <updated>2019-07-01T03:08:51.915Z</updated>
+  <id>http://blogdw.com/</id>
+  
+  <author>
+    <name>DuWei</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用HexoAdmin进行在线编辑</title>
+    <link href="http://blogdw.com/2019/07/01/est070202/"/>
+    <id>http://blogdw.com/2019/07/01/est070202/</id>
+    <published>2019-07-01T03:01:19.000Z</published>
+    <updated>2019-07-01T03:08:51.915Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 Hexo Admin 插件<br>Hexo Admin 是一个本地在线式文章管理器，可以用直观可视化的方式新建、编辑博客文章、page页面，添加标签、分类等，并且支持剪贴板粘贴图片（自动在source_images_目录中创建文件）<br><br>使用方法<br>在Hexo网站目录下，安装 Hexo Admin 插件npm install –save hexo-admin<br>启动本地服务器并打开管理界面，即可使用hexo server -d<br>打开<a href="http://localhost:4000/admin/进行编辑" target="_blank" rel="noopener">http://localhost:4000/admin/进行编辑</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;使用 Hexo Admin 插件&lt;br&gt;Hexo Admin 是一个本地在线式文章管理器，可以用直观可视化的方式新建、编辑博客文章、page页面，添加标签、分类等，并且支持剪贴板粘贴图片（自动在source_images_目录中创建文件）&lt;br&gt;&lt;br&gt;使用方法&lt;br&gt;在H
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test6.29</title>
+    <link href="http://blogdw.com/2019/06/29/test6-29/"/>
+    <id>http://blogdw.com/2019/06/29/test6-29/</id>
+    <published>2019-06-29T11:50:34.000Z</published>
+    <updated>2019-07-01T01:35:24.107Z</updated>
+    
+    <content type="html"><![CDATA[<p>2019年6月29日的测试</p><a id="more"></a><img src="/2019/06/29/test6-29/vm.png" width="234234234"><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2019年6月29日的测试&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="test" scheme="http://blogdw.com/categories/test/"/>
+    
+    
+      <category term="test" scheme="http://blogdw.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>流程图</title>
+    <link href="http://blogdw.com/2019/06/28/transfer/"/>
+    <id>http://blogdw.com/2019/06/28/transfer/</id>
+    <published>2019-06-28T09:51:36.000Z</published>
+    <updated>2019-06-29T11:48:10.630Z</updated>
+    
+    <content type="html"><![CDATA[<p>以太坊转账流程<br>流程图</p><img src="/2019/06/28/transfer/transfer.jpg" width="123123123"><img src="/2019/06/28/transfer/vm.png" width="234234234">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以太坊转账流程&lt;br&gt;流程图&lt;/p&gt;
+&lt;img src=&quot;/2019/06/28/transfer/transfer.jpg&quot; width=&quot;123123123&quot;&gt;
+&lt;img src=&quot;/2019/06/28/transfer/vm.png&quot; width=&quot;23423423
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>流程图</title>
+    <link href="http://blogdw.com/2019/06/28/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>http://blogdw.com/2019/06/28/流程图/</id>
+    <published>2019-06-28T09:51:36.000Z</published>
+    <updated>2019-07-01T01:26:21.156Z</updated>
+    
+    <content type="html"><![CDATA[<p>以太坊转账流程<br>流程图<br><img src="/transfer.jpg" alt="流程图"></p><img src="/2019/06/28/流程图/transfer.jpg" title="流程图">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;以太坊转账流程&lt;br&gt;流程图&lt;br&gt;&lt;img src=&quot;/transfer.jpg&quot; alt=&quot;流程图&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/2019/06/28/流程图/transfer.jpg&quot; title=&quot;流程图&quot;&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ERC20</title>
+    <link href="http://blogdw.com/2019/06/28/ERC20/"/>
+    <id>http://blogdw.com/2019/06/28/ERC20/</id>
+    <published>2019-06-28T09:40:25.000Z</published>
+    <updated>2019-06-28T09:45:22.093Z</updated>
+    
+    <content type="html"><![CDATA[<p>ERC20的全名叫：Ethereum Request for Comments 20。最先是以太坊社区团体提出来的。大家可以把它看做是一份协议，当你想创建自己的代币时，你就必须要遵守这份协议，这样后期才会有更多的第三方应用对你发行的代币进行支持。<br>ERC20是一段代码，主要有6个功能，分别是名称，简写，以及可以支持的最大位数以及定义查询方法等等。从ERC20发币的开源代码可以看出，如果一旦你要发币，首先就是要确定名称，代币简称，总量，代币精确小数点后多少位等等。<br>ERC 20有两种转账方式，一种是收件方为一份合同，这种情况下用户必须使用approve+transferFrom的功能来进行代币转移；而另一种则是收件方为合同外账户（例如，钱包地址）的情况，用户需将代币通过transfer功能转出。<br>根据ERC20标准，代币传输应该被认为是一个事件，但是传递函数不允许对这笔交易进行处理，因为它是在没有任何预先检查的情况下增加了接收方的余额。如果接收方是一个智能合约并且使用传递函数来发送代币的话，那么合约无法识别交易时肯能会导致问题的出现。这将导致传递函数出现意外行为并产生不可预测的结果，即代币可能会丢失并永久冻结。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;ERC20的全名叫：Ethereum Request for Comments 20。最先是以太坊社区团体提出来的。大家可以把它看做是一份协议，当你想创建自己的代币时，你就必须要遵守这份协议，这样后期才会有更多的第三方应用对你发行的代币进行支持。&lt;br&gt;ERC20是一段代码
+      
+    
+    </summary>
+    
+    
+      <category term="区块链相关" scheme="http://blogdw.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="发币标准" scheme="http://blogdw.com/tags/%E5%8F%91%E5%B8%81%E6%A0%87%E5%87%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://blogdw.com/2019/06/28/hello-world/"/>
+    <id>http://blogdw.com/2019/06/28/hello-world/</id>
+    <published>2019-06-28T08:23:44.911Z</published>
+    <updated>2019-06-28T08:23:44.911Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
