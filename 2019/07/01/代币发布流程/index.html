@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content>
+  <meta name="author" content="DuWei">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="代币发布流程">
+  <meta property="og:description" content="Hello">
+  <meta property="og:site_name" content="杜伟的Blog">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="http://blogdw.com">
+  
+    <link rel="alternate" href="/atom.xml" title="杜伟的Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>杜伟的Blog</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <link rel="stylesheet" href="/css/style.light.css">
+
+  <!-- Google Analytics -->
+  
+
+</head>
+
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">代币发布流程</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/DragonFlykeeperDC/">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/754826551@qq.com">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By DuWei</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2019-07-01</span>
+            <span class="time">11:08:16</span>
+          </span>
+          
+          <!--  Categories  -->
+            <span class="categories info">Under 
+
+<a href="/categories/区块链/">区块链</a>
+</span>
+          
+        </div>
+        <!-- Tags -->
+        
+          <div class="post-tags text-muted">
+            Tags: 
+
+<a class="tag" href="/tags/区块链/">#区块链</a> <a class="tag" href="/tags/以太坊/">#以太坊</a> <a class="tag" href="/tags/虚拟货币/">#虚拟货币</a> <a class="tag" href="/tags/ICO/">#ICO</a>
+
+
+          </div>
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <h1 id="以太坊私有链上基于ERC20标准发布代币"><a href="#以太坊私有链上基于ERC20标准发布代币" class="headerlink" title="以太坊私有链上基于ERC20标准发布代币"></a><strong><center>以太坊私有链上基于ERC20标准发布代币</center></strong></h1><a id="more"></a>
+<h2 id="1-Go环境安装"><a href="#1-Go环境安装" class="headerlink" title="1.Go环境安装"></a>1.<strong>Go环境安装</strong></h2><h2 id="2-Geth客户端安装"><a href="#2-Geth客户端安装" class="headerlink" title="2.Geth客户端安装"></a>2.<strong>Geth客户端安装</strong></h2><h2 id="3-Ethereum钱包安装"><a href="#3-Ethereum钱包安装" class="headerlink" title="3.Ethereum钱包安装"></a>3.<strong>Ethereum钱包安装</strong></h2><h2 id="4-钱包连接私有链"><a href="#4-钱包连接私有链" class="headerlink" title="4.钱包连接私有链"></a>4.<strong>钱包连接私有链</strong></h2><h3 id="就是在终端输入下面的命令，给钱包一个rpc参数，就是通过终端启动钱包，并提供参数-geth-ipc文件就是你启动完节点后，自动生成的，就在节点目录下，钱包连接到私有链需要提供这个文件，否则会连接到主链上"><a href="#就是在终端输入下面的命令，给钱包一个rpc参数，就是通过终端启动钱包，并提供参数-geth-ipc文件就是你启动完节点后，自动生成的，就在节点目录下，钱包连接到私有链需要提供这个文件，否则会连接到主链上" class="headerlink" title="就是在终端输入下面的命令，给钱包一个rpc参数，就是通过终端启动钱包，并提供参数(geth.ipc文件就是你启动完节点后，自动生成的，就在节点目录下，钱包连接到私有链需要提供这个文件，否则会连接到主链上."></a><strong>就是在终端输入下面的命令，给钱包一个rpc参数，就是通过终端启动钱包，并提供参数(geth.ipc文件就是你启动完节点后，自动生成的，就在节点目录下，钱包连接到私有链需要提供这个文件，否则会连接到主链上.</strong></h3><pre><code>&quot;C:\Program Files\Ethereum-Wallet\Ethereum Wallet.exe&quot; --rpc &quot;\\.\pipe\geth.ipc&quot;</code></pre><h3 id="接下来等待钱包同步区块-同步完成后即可使用"><a href="#接下来等待钱包同步区块-同步完成后即可使用" class="headerlink" title="接下来等待钱包同步区块,同步完成后即可使用."></a><strong>接下来等待钱包同步区块,同步完成后即可使用.</strong></h3><p><img src="/images/pasted-0.png" alt="upload successful"></p>
+<h2 id="5-创建代币"><a href="#5-创建代币" class="headerlink" title="5.创建代币"></a>5.<strong>创建代币</strong></h2><h3 id="打开钱包点击上方的合约按钮-CONTRACTS-，然后点击部署新合约-DEPLOY-NEW-CONTRACT-将以下代码拷贝到SOLIDITY-CONTRACT-SOURCE-CODE编辑框中"><a href="#打开钱包点击上方的合约按钮-CONTRACTS-，然后点击部署新合约-DEPLOY-NEW-CONTRACT-将以下代码拷贝到SOLIDITY-CONTRACT-SOURCE-CODE编辑框中" class="headerlink" title="打开钱包点击上方的合约按钮(CONTRACTS)，然后点击部署新合约(DEPLOY NEW CONTRACT)将以下代码拷贝到SOLIDITY CONTRACT SOURCE CODE编辑框中"></a><strong>打开钱包点击上方的合约按钮(CONTRACTS)，然后点击部署新合约(DEPLOY NEW CONTRACT)将以下代码拷贝到SOLIDITY CONTRACT SOURCE CODE编辑框中</strong></h3><p><img src="/images/pasted-1.png" alt="upload successful"></p>
+<pre><code>pragma solidity ^0.4.16;
+
+interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
+
+contract TokenERC20 {
+// Public variables of the token
+string public name;
+string public symbol;
+uint8 public decimals = 18;
+// 18 decimals is the strongly suggested default, avoid changing it
+uint256 public totalSupply; 
+
+// This creates an array with all balances
+mapping (address =&gt; uint256) public balanceOf;
+mapping (address =&gt; mapping (address =&gt; uint256)) public allowance;
+
+// This generates a public event on the blockchain that will notify clients
+event Transfer(address indexed from, address indexed to, uint256 value);
+
+// This notifies clients about the amount burnt
+event Burn(address indexed from, uint256 value);
+
+/**
+ * Constrctor function
+ *
+ * Initializes contract with initial supply tokens to the creator of the contract
+ */
+function TokenERC20(
+    uint256 initialSupply,
+    string tokenName,
+    string tokenSymbol
+) public {
+    totalSupply = initialSupply * 10 ** uint256(decimals);  // Update total supply with the decimal amount
+    balanceOf[msg.sender] = totalSupply;                // Give the creator all initial tokens
+    name = tokenName;                                   // Set the name for display purposes
+    symbol = tokenSymbol;                               // Set the symbol for display purposes
+}
+
+/**
+ * Internal transfer, only can be called by this contract
+ */
+function _transfer(address _from, address _to, uint _value) internal {
+    // Prevent transfer to 0x0 address. Use burn() instead
+    require(_to != 0x0);
+    // Check if the sender has enough
+    require(balanceOf[_from] &gt;= _value);
+    // Check for overflows
+    require(balanceOf[_to] + _value &gt; balanceOf[_to]);
+    // Save this for an assertion in the future
+    uint previousBalances = balanceOf[_from] + balanceOf[_to];
+    // Subtract from the sender
+    balanceOf[_from] -= _value;
+    // Add the same to the recipient
+    balanceOf[_to] += _value;
+    Transfer(_from, _to, _value);
+    // Asserts are used to use static analysis to find bugs in your code. They should never fail
+    assert(balanceOf[_from] + balanceOf[_to] == previousBalances);
+}
+
+/**
+ * Transfer tokens
+ *
+ * Send `_value` tokens to `_to` from your account
+ *
+ * @param _to The address of the recipient
+ * @param _value the amount to send
+ */
+function transfer(address _to, uint256 _value) public {
+    _transfer(msg.sender, _to, _value);
+}
+
+/**
+ * Transfer tokens from other address
+ *
+ * Send `_value` tokens to `_to` on behalf of `_from`
+ *
+ * @param _from The address of the sender
+ * @param _to The address of the recipient
+ * @param _value the amount to send
+ */
+function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
+    require(_value &lt;= allowance[_from][msg.sender]);     // Check allowance
+    allowance[_from][msg.sender] -= _value;
+    _transfer(_from, _to, _value);
+    return true;
+}
+
+/**
+ * Set allowance for other address
+ *
+ * Allows `_spender` to spend no more than `_value` tokens on your behalf
+ *
+ * @param _spender The address authorized to spend
+ * @param _value the max amount they can spend
+ */
+function approve(address _spender, uint256 _value) public
+    returns (bool success) {
+    allowance[msg.sender][_spender] = _value;
+    return true;
+}
+
+/**
+ * Set allowance for other address and notify
+ *
+ * Allows `_spender` to spend no more than `_value` tokens on your behalf, and then ping the contract about it
+ *
+ * @param _spender The address authorized to spend
+ * @param _value the max amount they can spend
+ * @param _extraData some extra information to send to the approved contract
+ */
+function approveAndCall(address _spender, uint256 _value, bytes _extraData)
+    public
+    returns (bool success) {
+    tokenRecipient spender = tokenRecipient(_spender);
+    if (approve(_spender, _value)) {
+        spender.receiveApproval(msg.sender, _value, this, _extraData);
+        return true;
+    }
+}
+
+/**
+ * Destroy tokens
+ *
+ * Remove `_value` tokens from the system irreversibly
+ *
+ * @param _value the amount of money to burn
+ */
+function burn(uint256 _value) public returns (bool success) {
+    require(balanceOf[msg.sender] &gt;= _value);   // Check if the sender has enough
+    balanceOf[msg.sender] -= _value;            // Subtract from the sender
+    totalSupply -= _value;                      // Updates totalSupply
+    Burn(msg.sender, _value);
+    return true;
+}
+
+/**
+ * Destroy tokens from other account
+ *
+ * Remove `_value` tokens from the system irreversibly on behalf of `_from`.
+ *
+ * @param _from the address of the sender
+ * @param _value the amount of money to burn
+ */
+function burnFrom(address _from, uint256 _value) public returns (bool success) {
+    require(balanceOf[_from] &gt;= _value);                // Check if the targeted balance is enough
+    require(_value &lt;= allowance[_from][msg.sender]);    // Check allowance
+    balanceOf[_from] -= _value;                         // Subtract from the targeted balance
+    allowance[_from][msg.sender] -= _value;             // Subtract from the sender&apos;s allowance
+    totalSupply -= _value;                              // Update totalSupply
+    Burn(_from, _value);
+    return true;
+}</code></pre><p>} </p>
+<h3 id="接下来选择发币标准为Token-ERC-20"><a href="#接下来选择发币标准为Token-ERC-20" class="headerlink" title="接下来选择发币标准为Token ERC 20"></a><strong>接下来选择发币标准为Token ERC 20</strong></h3><p><img src="/images/pasted-2.png" alt="upload successful"></p>
+<h3 id="之后会有三个输入框-填入对应信息-代币发行总量-代币名-代币简称"><a href="#之后会有三个输入框-填入对应信息-代币发行总量-代币名-代币简称" class="headerlink" title="之后会有三个输入框,填入对应信息(代币发行总量,代币名,代币简称)"></a><strong>之后会有三个输入框,填入对应信息(代币发行总量,代币名,代币简称)</strong></h3><p><img src="/images/pasted-3.png" alt="upload successful"></p>
+<h3 id="接下来选择手续费"><a href="#接下来选择手续费" class="headerlink" title="接下来选择手续费"></a><strong>接下来选择手续费</strong></h3><h2 id="6-开启挖矿"><a href="#6-开启挖矿" class="headerlink" title="6.开启挖矿"></a>6.<strong>开启挖矿</strong></h2><h3 id="理自己的交易。有一个确认，你的交易就被处理了。挖矿完成后，再次点击合约-CONTRACTS-，看，代币做好了，200w个！"><a href="#理自己的交易。有一个确认，你的交易就被处理了。挖矿完成后，再次点击合约-CONTRACTS-，看，代币做好了，200w个！" class="headerlink" title="理自己的交易。有一个确认，你的交易就被处理了。挖矿完成后，再次点击合约(CONTRACTS)，看，代币做好了，200w个！"></a><strong>理自己的交易。有一个确认，你的交易就被处理了。挖矿完成后，再次点击合约(CONTRACTS)，看，代币做好了，200w个！</strong></h3><h2 id="7-转账"><a href="#7-转账" class="headerlink" title="7 .转账"></a>7 .<strong>转账</strong></h2><h3 id="点击钱包的发送-SEND-，输入另一个节点的地址，输入转账金额，先转它10w个，币太多，没办法。下面注意了，前面转账的时候，只有ETHER，现在多了个刚才创建的代币，毫不犹豫选择它-注意下，千万不要把主链上的以太币转到私有链的钱包地址，否则你的以太币就消失在茫茫区块链中了-。"><a href="#点击钱包的发送-SEND-，输入另一个节点的地址，输入转账金额，先转它10w个，币太多，没办法。下面注意了，前面转账的时候，只有ETHER，现在多了个刚才创建的代币，毫不犹豫选择它-注意下，千万不要把主链上的以太币转到私有链的钱包地址，否则你的以太币就消失在茫茫区块链中了-。" class="headerlink" title="点击钱包的发送(SEND)，输入另一个节点的地址，输入转账金额，先转它10w个，币太多，没办法。下面注意了，前面转账的时候，只有ETHER，现在多了个刚才创建的代币，毫不犹豫选择它(注意下，千万不要把主链上的以太币转到私有链的钱包地址，否则你的以太币就消失在茫茫区块链中了)。"></a><strong>点击钱包的发送(SEND)，输入另一个节点的地址，输入转账金额，先转它10w个，币太多，没办法。下面注意了，前面转账的时候，只有ETHER，现在多了个刚才创建的代币，毫不犹豫选择它(注意下，千万不要把主链上的以太币转到私有链的钱包地址，否则你的以太币就消失在茫茫区块链中了)。</strong></h3><p><img src="/images/pasted-4.png" alt="upload successful"></p>
+<h3 id="至此发布代币成功"><a href="#至此发布代币成功" class="headerlink" title="至此发布代币成功!"></a><strong>至此发布代币成功!</strong></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Theme By <a target="_blank" href="https://github.com/levblanc">Levblanc.</a>
+          Inspired By <a target="_blank" href="https://github.com/klugjo/hexo-theme-clean-blog">Clean Blog.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+<script src="/js/highlight.pack.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+  </body>
+</html>
+
